@@ -1,0 +1,11 @@
+1. Evaluating classification: compare accuracy and precision/recall, give examples.
+
+Accuracy and precision/recall are two common metrics used to evaluate the performance of classification models. Accuracy measures the overall proportion of correct predictions made by the model, while precision and recall are measures that focus on the performance of the model for a specific class or set of classes.
+
+Precision measures the proportion of true positive predictions out of all positive predictions made by the model. It is calculated as:
+Precision = True Positives / (True Positives + False Positives)
+Recall measures the proportion of true positive predictions out of all actual positive instances in the data. It is calculated as:
+Recall = True Positives / (True Positives + False Negatives)
+
+Example 1: A medical diagnostic test that is used to identify a rare disease. In this case, it is important to minimize false negative predictions, as a missed diagnosis could have serious consequences for the patient. Therefore, recall may be a more important metric to consider than precision.
+Example 2: An email spam filter that is used to identify unwanted emails. In this case, it may be more important to minimize false positive predictions, as incorrectly classifying a legitimate email as spam could result in important messages being missed. Therefore, precision may be a more important metric to consider than recall.

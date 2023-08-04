@@ -1,0 +1,6 @@
+Q8: (new answer)
+Reasons:
++ Tree Depth: If the tree is too deep, it can capture noise and outliers in the training data that are not representative of the general patterns in the data.
++ Too many splits: If the decision tree is allowed to split too many times, it can learn very specific and granular decision rules that apply only to the training data and not to new data.
++ Insufficient training data: If the number of training samples is too small, the decision tree may not be able to capture the full complexity of the underlying patterns in the data and may overfit to the training data.
++ Noise in the data: If the training data contains noisy or irrelevant features that are not predictive of the target variable, the decision tree may overfit to these features and perform poorly on new data.
